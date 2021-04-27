@@ -208,7 +208,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 PRODUCT_PRODUCT_PROPERTIES += \
     remote_provisioning.enable_rkpd=true \
-    remote_provisioning.hostname=remoteprovisioning.googleapis.com
+    remote_provisioning.hostname=remoteprovisioning.googleapis.com \
+    ro.iorapd.enable=true
 
 PRODUCT_ODM_PROPERTIES += \
     vendor.display.use_smooth_motion=0
