@@ -191,6 +191,9 @@ TARGET_VNDK_USE_CORE_VARIANT := true
 # Display
 TARGET_USE_AIDL_QTI_MEMTRACK := true
 
+PRODUCT_SYSTEM_PROPERTIES += \
+    gsm.version.baseband?=Wi-Fi Only
+
 PRODUCT_VENDOR_PROPERTIES += \
     debug.graphics.game_default_frame_rate.disabled=1 \
     debug.hwui.use_hint_manager=true \
