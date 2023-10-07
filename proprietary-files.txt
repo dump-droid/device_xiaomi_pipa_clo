@@ -447,6 +447,25 @@ vendor/etc/mdss_dsi_m82_36_02_0a_dual_dphy_video_mi.xml|082c3a06f7b4c8f9fdd9681f
 vendor/etc/mdss_dsi_m82_42_02_0b_dual_dphy_video_mi.xml|082c3a06f7b4c8f9fdd9681fbe14de84489aabc3
 vendor/etc/tunings.txt|49dbb961af0131f28a65d6e05b245145f92f5f1e
 
+# Dolby - MIUI
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|ff827406bbcd1c82e790730bb017b7af38850004
+vendor/etc/dolby/dax-default.xml|d1e43b428d1799db5567ca1ae9ea24c886b88c6d
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
+vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml|e14caab9b769e58a993583c0486d58b30249ca92
+vendor/etc/media_codecs_dolby_audio.xml|a794eb15fc198d0285510260025cd99b53fa174f
+vendor/lib/soundfx/libhwdap.so|808b70062a609bc231209f7b6c724c64ce85b910
+vendor/lib/soundfx/libswgamedap.so|e48940fe176b91169af7dc178f376deea340d22d
+vendor/lib/soundfx/libswvqe.so|1cc2fa907f44a81d43adc70e9fddc22e1d305110
+vendor/lib/libdapparamstorage.so|d1952f09354f414238e5bd0f57dd0d3f85b8f769
+vendor/lib/libdeccfg.so|aab09ce6d14c428d96e821bcd4418399c139a3e7
+vendor/lib/libstagefright_soft_ac4dec.so|b7fffd98838de6495177da1a07ef36bc4579ec9a
+vendor/lib/libstagefright_soft_ddpdec.so|b143681ef46eb279d1c3ca9537a9cb29095f6791
+vendor/lib/vendor.dolby.hardware.dms@2.0.so|2bf537bbf5c413527e5c648b8e63b95f904f7532
+vendor/lib64/libdapparamstorage.so|a8e3bb20ee8579a13d5beef17a0ad251055e9d7b
+vendor/lib64/libdlbdsservice.so|fd3598b016e3c5acf69c125c85e6826a73695353
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|7c95205a1b05b2d674303c61b8f29486f085d090
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so|2020b5fd9abac65520224069bbe75d5e76d3f158
+
 # FASTCV
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
