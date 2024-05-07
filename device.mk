@@ -122,6 +122,7 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-service
 
 # Boot Animation
+TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Camera
