@@ -1,1 +1,3 @@
 type vendor_audio_socket, file_type;
+
+type vendor_dolby_data_file, file_type, data_file_type;
