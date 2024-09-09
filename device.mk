@@ -466,4 +466,5 @@ PRODUCT_PACKAGES += \
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
+    XiaomiDolby \
     XiaomiParts
