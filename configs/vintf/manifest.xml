@@ -145,6 +145,13 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>default</instance>
         </interface>
     </hal>
+    <!-- OMX Media HAL service -->
+    <hal format="hidl">
+        <name>android.hardware.media.omx</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IOmx/default</fqname>
+        <fqname>@1.0::IOmxStore/default</fqname>
+    </hal>
     <!-- SensorCal HAL service -->
     <hal format="hidl">
         <name>vendor.qti.hardware.sensorscalibrate</name>

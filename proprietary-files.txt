@@ -487,6 +487,10 @@ vendor/bin/mdm_helper_proxy|e7ba5764336a32454e4f8de6ff3e1a9c9c2a61bd
 vendor/bin/mdm_helper|aeb8aad56538231d57b7e945c918da39f0c19941
 vendor/lib64/libmdmimgload.so|5f9a20c24dd7f981eec4618769ef74ade0704d54
 
+# Media configs - MIUI
+vendor/etc/media_profiles_kona.xml:vendor/etc/media_profiles_V1_0.xml|1d39b584899004e4f8b97fc75b5d20142f2c8aca
+vendor/etc/system_properties.xml|a59c1f30cbe0bd82fe82700b92a0ddd6ac0b8177
+
 # MMI
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
 vendor/bin/mmid
@@ -508,6 +512,20 @@ vendor/lib/unnhal-acc-hta.so
 vendor/lib64/libhta_hexagon_runtime.so
 vendor/lib64/libnpu.so
 vendor/lib64/unnhal-acc-hta.so
+
+# OMX - MIUI
+vendor/lib/libOmxAacDec.so|8728f4a6f9effef6f34365447dcf4d0bd6d654ae
+vendor/lib/libOmxAlacDec.so|a123bf84f6615f4d1770745990b1c8dcb6f6ea4d
+vendor/lib/libOmxAmrDec.so|d0f59eafc1e3873767cbfce57b9653859a589af3
+vendor/lib/libOmxAmrwbplusDec.so|a3a17e6461b8017f770bb8f7bdd433fe38f7650d
+vendor/lib/libOmxApeDec.so|68f15f0847785454ecf5c345bafa766da4ad871d
+vendor/lib/libOmxDsdDec.so|f74936badeb8303b2bb17475b9cd157b1c81131c
+vendor/lib/libOmxEvrcDec.so|827e34f3068a733c39772d46f3757e42e21975c9
+vendor/lib/libOmxG711Dec.so|d9777af81b834a142da8e6191d94bccc9542628b
+vendor/lib/libOmxQcelp13Dec.so|44698fe731f52e64f4646c6262c9b4adba3d807b
+vendor/lib/libOmxVpp.so;DISABLE_CHECKELF|1b80537d3c7d84d984a608845ad44f7564e02c5c
+vendor/lib/libOmxWmaDec.so|edefb52d3a3a36e2f1f03e65181f3c919313dbba
+vendor/lib/libdsd2pcm.so|c5ab1afd7a5a23bf83d80b5ac74247c3dd2085af
 
 # OpenVX
 vendor/lib/libopenvx.so
@@ -588,6 +606,9 @@ vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 # RemoteFS
 vendor/bin/rmt_storage
 vendor/etc/init/vendor.qti.rmt_storage.rc
+
+# SECCOMP policy - MIUI
+vendor/etc/seccomp_policy/mediacodec.policy|566768911884c0d9d3fc4be82c13d516c5807827
 
 # SCVE
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
@@ -771,7 +792,6 @@ vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so|9af649faa7b43033
 vendor/bin/vppservice
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/init/vppservice.rc
-vendor/lib/libOmxVpp.so;DISABLE_CHECKELF
 vendor/lib/libvppclient.so
 vendor/lib/libvpphcp.so
 vendor/lib/libvpphvx.so
