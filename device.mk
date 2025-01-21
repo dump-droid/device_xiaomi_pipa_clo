@@ -203,6 +203,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.display.disable_metadata_dynamic_fps=1 \
     vendor.display.qdcm.mode_combine=1
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    remote_provisioning.enable_rkpd=true \
+    remote_provisioning.hostname=remoteprovisioning.googleapis.com
+
 PRODUCT_ODM_PROPERTIES += \
     vendor.display.use_smooth_motion=0
 
