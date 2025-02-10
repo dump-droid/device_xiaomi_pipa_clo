@@ -515,14 +515,19 @@ vendor/lib64/unnhal-acc-hta.so
 
 # OMX - MIUI
 vendor/lib/libOmxAacDec.so|8728f4a6f9effef6f34365447dcf4d0bd6d654ae
+vendor/lib/libOmxAacEnc.so|be11bbed619c134407cb80b3e166509521e264b1
 vendor/lib/libOmxAlacDec.so|a123bf84f6615f4d1770745990b1c8dcb6f6ea4d
 vendor/lib/libOmxAmrDec.so|d0f59eafc1e3873767cbfce57b9653859a589af3
+vendor/lib/libOmxAmrEnc.so|57c9af009ef45d29e91ac334e56a087123d15cfd
 vendor/lib/libOmxAmrwbplusDec.so|a3a17e6461b8017f770bb8f7bdd433fe38f7650d
 vendor/lib/libOmxApeDec.so|68f15f0847785454ecf5c345bafa766da4ad871d
 vendor/lib/libOmxDsdDec.so|f74936badeb8303b2bb17475b9cd157b1c81131c
 vendor/lib/libOmxEvrcDec.so|827e34f3068a733c39772d46f3757e42e21975c9
+vendor/lib/libOmxEvrcEnc.so|ded2c97055e9180e420c4578567921f680f1510a
 vendor/lib/libOmxG711Dec.so|d9777af81b834a142da8e6191d94bccc9542628b
+vendor/lib/libOmxG711Enc.so|a21ff12721bdc7e9f41b1c6886c2b51e04798d64
 vendor/lib/libOmxQcelp13Dec.so|44698fe731f52e64f4646c6262c9b4adba3d807b
+vendor/lib/libOmxQcelp13Enc.so|f3aeda21b1718dd67b21496f232f5aaeb840b129
 vendor/lib/libOmxVideoDSMode.so;DISABLE_CHECKELF|0771a2c2f34dc484f9b0b3625dd0a40361dec060
 vendor/lib/libOmxVpp.so;DISABLE_CHECKELF|1b80537d3c7d84d984a608845ad44f7564e02c5c
 vendor/lib/libOmxWmaDec.so|edefb52d3a3a36e2f1f03e65181f3c919313dbba
