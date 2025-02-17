@@ -194,6 +194,7 @@ TARGET_USE_AIDL_QTI_MEMTRACK := true
 PRODUCT_VENDOR_PROPERTIES += \
     debug.graphics.game_default_frame_rate.disabled=1 \
     debug.hwui.use_hint_manager=true \
+    debug.sf.enable_adpf_cpu_hint=true \
     debug.hwui.target_cpu_time_percent=30 \
     ro.audio.monitorRotation=true \
     ro.vendor.display.sensortype=2 \
