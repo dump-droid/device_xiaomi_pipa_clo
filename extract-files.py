@@ -22,9 +22,12 @@ from extract_utils.fixups_lib import (
 blob_fixups: blob_fixups_user_type = {
    ('vendor/lib64/mediadrm/libwvdrmengine.so', 'vendor/lib64/libwvhidl.so'): blob_fixup()
         .add_needed('libcrypto_shim.so'),
+    'vendor/lib/libaudioroute_ext.so': blob_fixup()
+        .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
     'vendor/lib/hw/audio.primary.pipa.so': blob_fixup()
         .replace_needed('/vendor/lib/liba2dpoffload.so', 'liba2dpoffload_pipa.so\x00\x00\x00\x00\x00\x00\x00')
-        .replace_needed('/vendor/lib/libssrec.so', 'libssrec_pipa.so\x00\x00\x00\x00\x00\x00\x00'),
+        .replace_needed('/vendor/lib/libssrec.so', 'libssrec_pipa.so\x00\x00\x00\x00\x00\x00\x00')
+        .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
 }  # fmt: skip
 
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
