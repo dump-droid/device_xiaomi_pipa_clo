@@ -383,7 +383,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     FlipFlap \
-    RemovePackages
 
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.debug.disable_lid_state=true \
