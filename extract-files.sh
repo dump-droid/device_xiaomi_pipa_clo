@@ -62,21 +62,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        odm/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service)
-            [ "$2" = "" ] && return 0
-            grep -q "libstagefright_foundation-v33.so" "${2}" || "${PATCHELF}" --add-needed "libstagefright_foundation-v33.so" "${2}"
-            ;;
         vendor/lib/hw/audio.primary.pipa.so)
             sed -i "s|/vendor/lib/liba2dpoffload\.so|liba2dpoffload_pipa\.so\x00\x00\x00\x00\x00\x00\x00|g" "${2}"
             sed -i "s|/vendor/lib/libssrec\.so|libssrec_pipa\.so\x00\x00\x00\x00\x00\x00\x00|g" "${2}"
-            ;;
-        vendor/lib64/libcodec2_soft_ac4dec.so|vendor/lib64/libcodec2_soft_ddpdec.so)
-            [ "$2" = "" ] && return 0
-            "${PATCHELF}" --replace-needed "libstagefright_foundation.so" "libstagefright_foundation-v34_cancunf.so" "${2}"
-            ;;
-        vendor/lib64/libdeccfg.so)
-            [ "$2" = "" ] && return 0
-            "${PATCHELF}" --replace-needed "libdapparamstorage.so" "libdapparamstorage-v34_cancunf.so" "${2}"
             ;;
         vendor/lib64/mediadrm/libwvdrmengine.so|vendor/lib64/libwvhidl.so)
             [ "$2" = "" ] && return 0
