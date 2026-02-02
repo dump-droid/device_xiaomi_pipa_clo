@@ -74,6 +74,9 @@ TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x546C00000000
 TARGET_NO_RAW10_CUSTOM_FORMAT := true
 TARGET_SCREEN_DENSITY := 400
 
+# Firmware
+include vendor/xiaomi/pipa-firmware/BoardConfigVendor.mk
+
 # Gestures
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
