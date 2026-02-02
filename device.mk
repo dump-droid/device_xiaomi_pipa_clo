@@ -265,10 +265,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
-# LMKD
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.lmk.force_inkernel_lmk=true
-
 # Media
 TARGET_SUPPORTS_OMX_SERVICE := false
 
