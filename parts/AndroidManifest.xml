@@ -17,7 +17,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.lineageos.settings"
+    package="co.aospa.settings"
     android:versionCode="1"
     android:versionName="1.0"
     android:sharedUserId="android.uid.system">
@@ -184,7 +184,7 @@
 
         <!-- GameBar BootReceiver -->
         <receiver
-            android:name="org.lineageos.settings.gameoverlay.GameOverlayBootReceiver"
+            android:name="co.aospa.settings.gameoverlay.GameOverlayBootReceiver"
             android:exported="true"
             android:enabled="true"
             android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
