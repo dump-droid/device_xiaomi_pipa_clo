@@ -415,6 +415,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/window_extensions.mk)
 
+PRODUCT_PACKAGES += \
+    AOSPAFrameworksTabletOverlay
+
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal/thermal-india-mgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-india-mgame.conf \
