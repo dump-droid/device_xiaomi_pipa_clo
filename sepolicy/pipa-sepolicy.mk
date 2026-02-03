@@ -20,6 +20,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/xiaomi/pipa/sepolicy/private/xiaomi/devicesettings \
     device/xiaomi/pipa/sepolicy/private/xiaomi/display \
+    device/xiaomi/pipa/sepolicy/private/xiaomi/dolby \
     device/xiaomi/pipa/sepolicy/private/xiaomi/sensors
 
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
