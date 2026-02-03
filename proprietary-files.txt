@@ -796,6 +796,7 @@ vendor/lib64/libwvkeybox.so|31d4f6e7054a0b432d18429010e1bf73b5e02e2d
 
 # WiFi - MIUI
 vendor/bin/nv_mac|5de575cd0c3d0d5c79dcfd77df87eb69286da800
+vendor/lib64/liblowi_client.so|a4ec2ce9d63900e94601b848df26b655b8116f04
 vendor/lib64/liblowi_wifihal.so|c869a6dc081714be47fd549b9e3e3a4a5a2ddf6d
 
 # WiFi Display
