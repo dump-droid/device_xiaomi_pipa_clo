@@ -194,6 +194,8 @@ TARGET_USE_AIDL_QTI_MEMTRACK := true
 PRODUCT_VENDOR_PROPERTIES += \
     debug.graphics.game_default_frame_rate.disabled=1 \
     ro.vendor.display.sensortype=2 \
+    vendor.display.disable_idle_time_hdr=1 \
+    vendor.display.disable_idle_time_video=1 \
     vendor.display.qdcm.mode_combine=1
 
 PRODUCT_ODM_PROPERTIES += \
