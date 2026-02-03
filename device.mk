@@ -196,6 +196,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.display.sensortype=2 \
     vendor.display.disable_idle_time_hdr=1 \
     vendor.display.disable_idle_time_video=1 \
+    vendor.display.disable_metadata_dynamic_fps=1 \
     vendor.display.qdcm.mode_combine=1
 
 PRODUCT_ODM_PROPERTIES += \
