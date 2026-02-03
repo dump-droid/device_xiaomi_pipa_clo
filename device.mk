@@ -246,12 +246,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.gatekeeper.disable_spu=true
 
-# Gboard paddings
-# Keyboard height ratio and bottom padding in dp for portrait mode
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.com.google.ime.height_ratio=1.075 \
-    ro.com.google.ime.kb_pad_port_b=8
-
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
