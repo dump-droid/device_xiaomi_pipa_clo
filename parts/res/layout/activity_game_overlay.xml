@@ -5,7 +5,7 @@
 
     <fragment
         android:id="@+id/game_overlay_fragment"
-        android:name="org.lineageos.settings.gameoverlay.GameOverlayFragment"
+        android:name="co.aospa.settings.gameoverlay.GameOverlayFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
