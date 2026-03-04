@@ -5,4 +5,4 @@
 
 # Product Makefiles
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/aospa_pipa.mk
+    $(LOCAL_DIR)/pipa.mk
