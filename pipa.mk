@@ -19,13 +19,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Inherit from the custom device configuration.
 $(call inherit-product, device/xiaomi/pipa/device.mk)
 
-# Inherit from the AOSPA configuration.
-$(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
+# Inherit from the Neoteric configuration.
+$(call inherit-product, vendor/neoteric/target/product/neoteric-target.mk)
 
 # Telephony
 TARGET_NO_TELEPHONY := true
 
-PRODUCT_NAME := aospa_pipa
+PRODUCT_NAME := pipa
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := pipa
 PRODUCT_MANUFACTURER := Xiaomi
